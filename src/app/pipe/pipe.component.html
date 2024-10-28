@@ -1,0 +1,23 @@
+<h3>Pierwsza lista studentów:</h3>
+<ul>
+    <li li *ngFor = "let student of studentList"></li>
+</ul>
+<p>Jest {{studentList.length|i18nPlural :countStudents}} </p>
+
+<h3>Druga lista studentów:</h3>
+<ul>
+    <li *ngFor = "let student of studentList1">{{student}}</li>
+</ul>
+<p>Jest {{studentList1.length|i18nPlural :countStudents}}</p>
+
+<h3>Trzecia lista studentów:</h3>
+<ul>
+    <li *ngFor = "let student of studentList2">{{student}}</li>
+</ul>
+<p>Jest {{studentList2.length|i18nPlural :countStudents}}</p>
+
+<h3>Czwarta lista studentów:</h3>
+<ul>
+    <li *ngFor = "let student of studentList3">{{student}}</li>
+</ul>
+<p>Jest {{studentList3.length|i18nPlural :countStudents}}</p>
